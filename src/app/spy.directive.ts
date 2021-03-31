@@ -4,6 +4,8 @@ import { LoggerService } from './logger.service';
 
 let nextId = 1;
 
+
+
 // Spy on any element to which it is applied.
 // Usage: <div appSpy>...</div>
 @Directive({selector: '[appSpy]'})
